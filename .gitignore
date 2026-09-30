@@ -1,0 +1,27 @@
+# Generated assessment output
+**/output/
+**/outputs/
+**/Assessment_*/
+SQL_Initial_Assessment_*.html
+SQL_Initial_Assessment_*.xlsx
+SQL_Initial_Assessment_*.log
+SqlUpgradeAdvisor_*.html
+SqlUpgradeAdvisor_*.xlsx
+SqlUpgradeAdvisor_*.json
+SqlUpgradeAdvisor_*.sarif
+suite-run.log
+run-manifest.json
+
+# Tests and test artifacts
+/tests/
+*.Tests.ps1
+TestResults/
+*.trx
+
+# Documentation policy: keep only the root README and changelog
+*.md
+!/README.md
+!/CHANGELOG.md
+
+# Draft and text files
+*.txt
